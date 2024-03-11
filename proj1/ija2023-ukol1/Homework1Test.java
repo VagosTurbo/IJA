@@ -25,12 +25,12 @@ public class Homework1Test {
     @Test
     public void test01() {
         Environment room = Room.create(5, 8);
-        
+
         Assert.assertTrue(room.createObstacleAt(1, 2));
         Assert.assertTrue(room.createObstacleAt(1, 4));
         Assert.assertTrue(room.createObstacleAt(1, 5));
         Assert.assertTrue(room.createObstacleAt(2, 5));
-        
+
         Assert.assertFalse("Na [1,3] neni prekazka",room.obstacleAt(1, 3));
         Assert.assertTrue("Na [1,5] je prekazka",room.obstacleAt(1, 5));
     }
@@ -41,14 +41,14 @@ public class Homework1Test {
      * 1b
      */
     @Test
-    public void test02() {       
+    public void test02() {
         Assert.assertThrows(
                 "Rozmery misttnosti musi byt vetsi nez 0 - generuje vyjimku IllegalArgumentException",
-                IllegalArgumentException.class, 
+                IllegalArgumentException.class,
                 () -> { Room.create(-1, 8); }
         );
     }
-        
+
     /**
      * Test vytvoření vytvoření a umístění robota do místnosti.
      * 2b
@@ -56,11 +56,11 @@ public class Homework1Test {
     @Test
     public void test03() {
         Environment room = this.createTestEnvironment();
-        
+
         Position p = new Position(1,5);
         Robot r = ControlledRobot.create(room, p);
         Assert.assertNull("Robot nevytvoren, na pozici p=" + p + " je prekazka", r);
-        
+
         p = new Position(4,2);
         r = ControlledRobot.create(room, p);
         Assert.assertNotNull("Robot vytvoren na pozici p=" + p, r);
@@ -73,7 +73,7 @@ public class Homework1Test {
     @Test
     public void test04() {
         Environment room = this.createTestEnvironment();
-        
+
         Position p1 = new Position(4,2);
         Robot r1 = ControlledRobot.create(room, p1);
         Assert.assertNotNull("Robot vytvoren na pozici p=" + p1, r1);
@@ -83,7 +83,7 @@ public class Homework1Test {
         Robot r2 = ControlledRobot.create(room, p2);
         Assert.assertNotNull("Robot vytvoren na pozici p=" + p1, r2);
         Assert.assertEquals("Pozice robota " + r2, p2, r2.getPosition());
-        
+
         Assert.assertEquals("Úhel natočení robota " + r1, 0, r1.angle());
         Assert.assertEquals("Úhel natočení robota " + r2, 0, r2.angle());
         r1.turn();
@@ -109,7 +109,7 @@ public class Homework1Test {
     @Test
     public void test05() {
         Environment room = this.createTestEnvironment();
-        
+
         Position p1 = new Position(4,2);
         Robot r1 = ControlledRobot.create(room, p1);
         Assert.assertNotNull("Robot vytvoren na pozici p=" + p1, r1);
@@ -131,7 +131,7 @@ public class Homework1Test {
         Assert.assertEquals("Úhel natočení robota " + r1, 0, r1.angle());
         p1 = new Position(2, 2);
         Assert.assertEquals("Pozice robota " + r1, p1, r1.getPosition());
-        
+
         r1.turn();
         r1.turn();
         Assert.assertTrue("Robot " + r1 + " se muze presunout o jednu pozici", r1.canMove());
@@ -148,7 +148,7 @@ public class Homework1Test {
     @Test
     public void test06() {
         Environment room = this.createTestEnvironment();
-        
+
         Position p1 = new Position(4,2);
         Robot r1 = ControlledRobot.create(room, p1);
 
@@ -164,7 +164,7 @@ public class Homework1Test {
         p1 = new Position(4, 3);
         Assert.assertEquals("Pozice robota " + r1, p1, r1.getPosition());
     }
-    
+
     /**
      * Test hranic mistnosti.
      * 1b
@@ -172,7 +172,7 @@ public class Homework1Test {
     @Test
     public void test07() {
         Environment room = this.createTestEnvironment();
-        
+
         Position p1 = new Position(3,1);
         Robot r1 = ControlledRobot.create(room, p1);
         r1.turn();
