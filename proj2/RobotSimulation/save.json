@@ -1,0 +1,19 @@
+{
+  "robots": [
+    { "Controlled": false, "id": 0, "x": 695.0, "y": 55.0, "angle": 90.0, "speed": 1.0 },
+    { "Controlled": false, "id": 1, "x": 695.0, "y": 302.0, "angle": 90.0, "speed": 1.0 },
+    { "Controlled": false, "id": 2, "x": 695.0, "y": 464.0, "angle": 90.0, "speed": 1.0 },
+    { "Controlled": false, "id": 3, "x": 695.0, "y": 388.0, "angle": 90.0, "speed": 1.0 },
+    { "Controlled": false, "id": 4, "x": 695.0, "y": 150.0, "angle": 90.0, "speed": 1.0 },
+    { "Controlled": false, "id": 5, "x": 280.44463670681273, "y": 5.2826255336297745, "angle": 0.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 6, "x": 5.791005421895959, "y": 45.89715067329421, "angle": 270.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 7, "x": 138.8324022346353, "y": 5.100558659217901, "angle": 0.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 8, "x": 678.9999999999986, "y": 155.0, "angle": 0.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 9, "x": 693.4860335195513, "y": 263.32960893854766, "angle": 90.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 10, "x": 694.5284355894943, "y": 39.723966315752705, "angle": 90.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 11, "x": 638.100558659217, "y": 299.0, "angle": 0.0, "speed": 3.76536312849162 },
+    { "Controlled": false, "id": 12, "x": 584.8356981593283, "y": 494.2491059805579, "angle": 180.0, "speed": 3.76536312849162 }
+  ],
+  "obstacles": [
+  ]
+}

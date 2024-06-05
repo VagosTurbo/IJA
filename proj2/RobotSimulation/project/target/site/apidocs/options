@@ -1,0 +1,26 @@
+-classpath
+'/home/boriss/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/boriss/.m2/repository/org/openjfx/javafx-fxml/17/javafx-fxml-17.jar:/home/boriss/.m2/repository/org/openjfx/javafx-fxml/17/javafx-fxml-17-linux.jar:/home/boriss/.m2/repository/org/openjfx/javafx-controls/17/javafx-controls-17.jar:/home/boriss/.m2/repository/org/openjfx/javafx-controls/17/javafx-controls-17-linux.jar:/home/boriss/.m2/repository/org/openjfx/javafx-graphics/17/javafx-graphics-17.jar:/home/boriss/.m2/repository/org/openjfx/javafx-graphics/17/javafx-graphics-17-linux.jar:/home/boriss/.m2/repository/org/openjfx/javafx-base/17/javafx-base-17.jar:/home/boriss/.m2/repository/org/openjfx/javafx-base/17/javafx-base-17-linux.jar:/home/boriss/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/home/boriss/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/home/boriss/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/home/boriss/Documents/VUT-FIT/2BIT-LETNY/IJA/proj2/ijaproject2/project/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/boriss/Documents/VUT-FIT/2BIT-LETNY/IJA/proj2/ijaproject2/project/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'RobotSimulation 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/boriss/Documents/VUT-FIT/2BIT-LETNY/IJA/proj2/ijaproject2/project/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'RobotSimulation 1.0-SNAPSHOT API'
